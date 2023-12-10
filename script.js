@@ -1,10 +1,10 @@
 function toggleMode(){
   const hmtl = document.documentElement
-  hmtl.classList.toggle('ligth')
+  hmtl.classList.toggle('light')
 
   const img = document.querySelector('#profile img')
 
-  if(hmtl.classList.contains('ligth')){
+  if(hmtl.classList.contains('light')){
     img.setAttribute('src', 'assets/avatar-light.png')
   } else {
        img.setAttribute("src", "assets/avatar.png")
